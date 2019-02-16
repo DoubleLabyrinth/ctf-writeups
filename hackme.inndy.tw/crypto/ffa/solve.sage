@@ -32,7 +32,7 @@ phi_M = M - 1
 
 g, i, j = xgcd(a, phi_M)
 while a < 0:
-    a += phi_M
+    i += phi_M
 assert(g == 1)
 
 g, k, l = xgcd(b, phi_M)
