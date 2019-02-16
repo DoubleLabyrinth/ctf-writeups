@@ -20,9 +20,5 @@ You will find the key is
 vigenereciphercanbecrackedbyfrequencyanalysisattack
 ```
 
-According to the plaintext after decrypting, the flag should be
-
-```
-FLAG{VIGENERE CIPHER CAN BE CRACKED BY FREQUENCY ANALYSIS ATTACK}
-```
+Decrypt and you will get the flag inside the plaintext.
 

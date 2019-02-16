@@ -27,9 +27,5 @@ print(m.hex())                      # the hex string of m is '624c15d80845473273
 
 Then run `what-is-aes.py` with `624c15d8084547327391743345984c65` as input and you will get a picture.
 
-Open the picture, and you will see the flag is
-
-```
-FLAG{I can encrypt AES}
-```
+Open the picture, and you will see the flag.
 

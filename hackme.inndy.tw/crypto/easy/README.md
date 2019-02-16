@@ -8,7 +8,7 @@
 
 ## 2. Solution
 
-1. Hex decode -->
+1. Hex decode
 
 ```
 RkxBR3tUaGlzIGlzIGVhc3ksIHJpZ2h0P30=
@@ -17,6 +17,6 @@ RkxBR3tUaGlzIGlzIGVhc3ksIHJpZ2h0P30=
 2. Base64 decode
 
 ```
-FLAG{This is easy, right?}
+echo $(echo 'RkxBR3tUaGlzIGlzIGVhc3ksIHJpZ2h0P30=' | base64 -d)
 ```
 
